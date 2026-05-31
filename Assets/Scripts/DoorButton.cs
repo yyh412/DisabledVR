@@ -15,7 +15,8 @@ public class DoorButton : MonoBehaviour
         {
             used = true;
             Debug.Log("Enter button triggered. Loading Office.");
-            transitionManager.GoToScene(1);
+
+            transitionManager.GoToScene(2);
         }
     }
 }
